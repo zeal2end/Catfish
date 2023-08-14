@@ -78,8 +78,7 @@ class GameButton extends React.Component {
         return (
             <div className="buttonBox">
                 <h1 className="name">{this.state.name}</h1>
-                <br />
-                <button className="glow-on-hover" type="button" onClick={this.handleClick}>Don't Click</button>
+                <button type="button" onClick={this.handleClick}>Don't Click</button>
             </div>
         )
     }

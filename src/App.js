@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-// import GameButton from './Components/GameButton'
-import ForHer from './Components/ForHer';
+import GameButton from './Components/GameButton'
 
 function App() {
   return (
     <div className="App">
-      <ForHer />
+      <GameButton />
     </div>
   );
 }

@@ -1,13 +1,10 @@
 body {
-  background-image: url('bg.jpg');
-  background-size: 100%;
-  width: 100%;
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2b2929;
+  background-color: rgb(65, 63, 63);
 }
 
 code {
